@@ -6,7 +6,7 @@ Month view:
 
 I love the functionality and portability of Google Calendar but I didn't like the interface, so I made this.
 
-To be used with the Stylish browser extension on Google Chrome.
+To be used with the Stylish browser extension on Google Chrome, style available to be installed at https://userstyles.org/styles/133011/simple-gcal .
 
 May also work on other browsers with Stylish but has not been tested extensively anywhere but Chrome.
 

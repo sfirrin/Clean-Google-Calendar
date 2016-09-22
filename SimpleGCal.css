@@ -184,11 +184,11 @@ box-shadow: 1px 1px 10px 0px rgba(51,51,51,0.26);
 }
 
 /*
-#tgTable {
-    position: relative;
-    left: -1px;
-}
-*/
+ * #tgTable {
+ *     position: relative;
+ *         left: -1px;
+ *         }
+ *         */
 
 .tc-icon-darkcheck {
     position: relative;
@@ -316,4 +316,26 @@ td.st-bg-td-first {
     box-shadow: none;
     color: #555 !important;
 }
+
+td.st-bg.st-bg-today {
+    background-color: #f1f1f1;
+    border: none;
+}
+
+td.st-dtitle.st-dtitle-today {
+    border: none;
+}
+
+td.st-bg.st-bg-next {
+    border-left: inherit;
+}
+
+td.st-dtitle.st-dtitle-next {
+    border-left: inherit;
+}
+
+td.st-dtitle.st-dtitle-down {
+    border-top: inherit;
+}
+
 
