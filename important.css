@@ -1,0 +1,385 @@
+.chip dt {
+    margin-top: 0 !important;
+}
+
+/* Always hides the tasks sidebar */
+#rhstogglecell {
+    display: none !important;
+}
+
+#gadgetcell {
+    display: none !important;
+}
+
+#maincell.has-sn-ex {
+    margin-right: 0 !important;
+}
+
+#mainbody {
+    margin-left: 5px !important;
+}
+
+.st-c-pos {
+    margin-top: 1px !important;
+}
+
+.wk-allday .st-bg-today {
+    background: #fff !important;
+}
+
+.wk-dayname {
+    border-width: 0 !important;
+    font-size: 18px !important;
+}
+
+.applogo {
+    display: none !important;
+}
+
+.eui-s #gridcontainer {
+    margin-left: 0 !important;
+}
+
+/*.tc-icon-normal {
+    margin-top: -1px !important;
+}*/
+
+#onegoogbar {
+ 	display: none !important;   
+}
+
+.eui-s #vr-nav {
+    margin-top: 10px !important;
+}
+
+#vr-nav {
+ 	margin-top: 10px !important; 
+    padding-bottom: 5px !important;
+}
+
+#nav {
+ 	display: none !important;   
+}
+
+#terms-and-privacy {
+    display: none !important;
+}
+
+#topcontainerwk {
+    padding-left:57px !important;
+}
+
+.wk-tzlabel {
+	display: none !important;   
+}
+
+#weekViewAllDayBgwk td {
+    border-width: 0 !important;
+}
+
+.wk-daynames div {
+    border-width: 0 !important;
+}
+
+#topLeftNavigation {
+    left: 20px !important;
+}
+
+.date-nav-prev, .date-nav-next {
+    position: relative !important;
+    top: -2px !important;
+}
+
+#mg-settings .goog-imageless-button-outer-box {
+    height: 19px !important;
+    top: 6px !important;
+    box-shadow: 0 !important;
+    -moz-box-shadow: 0 !important;
+    -webkit-box-shadow: 0 !important;
+}
+
+#gridcontainer {
+    margin-right: 0 !important;
+}
+
+.st-c-pos span.evt-lk {
+    font-size: 13px !important;
+    margin-top: 2px !important;
+    display: inline-block !important;
+}
+
+.mbox-cont {
+    margin-top: 25px !important;
+}
+
+/*#calmaster {
+    overflow: hidden !important;
+}*/
+
+.bubble.has-top-prong {
+    margin-left: 0 !important;
+}
+
+.tg-time-pri, .tg-time-sec {
+    font-size: 18px !important;
+}
+
+.date-top {
+    color: #222 !important;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    margin-top: 2px !important;
+}
+
+.chip {
+    margin-left: 6px !important;/*
+    -webkit-box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;
+    -moz-box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;
+    box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;*/
+    -webkit-border-radius: 3px !important;
+}
+
+.mask-right {
+    display: none !important;
+}
+
+.mask-left {
+    display: none !important;
+}
+
+.chip dl {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    padding-top: 3px !important;
+}
+
+.cbrd {
+    border: 0 !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+}
+
+.tg-dualmarker, .tg-dualmarker60 {
+    border-bottom: 0px dotted #ddd !important;
+    border-top: 1px dotted #ddd !important;
+}
+
+.rb-n {
+    border: 0 !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    padding-bottom: 2px !important;
+    margin-left: 3px !important;
+    margin-right: 2px !important;/*
+    -webkit-box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;
+    -moz-box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;
+    box-shadow: 2px 2px 12px -1px rgba(51,51,51,0.41) !important;*/
+}
+
+.rb-n, .chip {
+-webkit-box-shadow: 1px 1px 10px 0px rgba(51,51,51,0.26) !important;
+-moz-box-shadow: 1px 1px 10px 0px rgba(51,51,51,0.26) !important;
+box-shadow: 1px 1px 10px 0px rgba(51,51,51,0.26) !important;
+}
+
+/*
+ * #tgTable {
+ *     position: relative !important;
+ *         left: -1px !important;
+ *         }
+ *         */
+
+.tc-icon-darkcheck {
+    position: relative !important;
+    top: -1px !important;
+}
+
+.tg-col {
+    border-left: 1px dotted #ddd !important;
+}
+
+#tgnowptr {
+    display: none !important;
+}
+
+.cbrd dt, .cbrd dd {
+    position: relative !important;
+    top: 1px !important;
+    padding-top: 1px !important;
+}
+
+.cgd-col-last {
+    display: none !important;
+}
+
+#tg-time-pri-last {
+    display: none !important;
+}
+
+.crd-bottom {
+    display: none !important;
+}
+
+.tg-mainwrapper {
+    margin-top: 0 !important;
+}
+
+.cgd-gutter-bg-bottom {
+    display: none !important;
+}
+
+.tg-spanningwrapper .tg-hourmarkers div:nth-child(18) {
+    display: none !important;
+}
+
+.tg-time-pri, .tg-time-sec {
+    font-size: 18px !important;
+    position: relative !important;
+    top: 1.15px !important;
+}
+
+.crd-top {
+    display: none !important;
+}
+
+.tg-time-pri {
+    border: none !important;
+}
+
+td.tg-times-pri {
+    border: none !important;
+}
+
+table#weekViewAllDayBgwk {
+    border: none !important;
+}
+
+div#vr-nav {
+    border-bottom: none !important;
+}
+
+div#topcontainerBorderwk {
+    display: none !important;
+}
+
+.goog-imageless-button-collapse-right {
+    border: none !important;
+}
+
+.goog-imageless-button, .navbuttonouter {
+    background: #fff !important;
+    background-image: none !important;
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1) !important;
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1) !important;
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1) !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 !important;
+    -moz-box-shadow: 0 !important;
+    -webkit-box-shadow: 0 !important;
+}
+
+.wk-dayname.wk-today {
+    background: #fff !important;
+}
+
+div.goog-imageless-button-checked {
+    box-shadow: none !important;
+    color: #222 !important;
+}
+
+.goog-imageless-button {
+    text-transform: uppercase !important;
+    color: #888 !important;
+    font-size: 12px !important;
+}
+
+.st-dtitle {
+    line-height: 26px !important;
+    font-size: 18px !important;
+}
+
+td.st-bg-td-first {
+    background-color: #fff !important;
+}
+
+.crd-col.tg-times-pri {
+    border-left: none !important;
+    border-bottom: none !important;
+}
+
+#tgTable {
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.goog-imageless-button-hover {
+    box-shadow: none !important;
+    color: #555 !important;
+}
+
+td.st-bg.st-bg-today {
+    background-color: #f1f1f1 !important;
+    border: none !important;
+}
+
+td.st-dtitle.st-dtitle-today {
+    border: none !important;
+}
+
+td.st-bg.st-bg-next {
+    border-left: inherit !important;
+}
+
+td.st-dtitle.st-dtitle-next {
+    border-left: inherit !important;
+}
+
+td.st-dtitle.st-dtitle-down {
+    border-top: inherit !important;
+}
+
+#mainbody {
+    margin-left: 0 !important;
+}
+/*  */.
+#topLeftNavigation {
+    left: 20px !important;
+}
+
+.mbox-cont {
+    margin-top: 25px !important;
+}
+
+.rb-n {
+    border: none !important;
+}
+
+.st-c .te, .st-c .rb-n {
+    /*padding: 2px 9px !important;*/
+}
+
+.tc-icon-normal {
+    position: relative !important;
+    top: -1px !important;
+    left: -1px !important;
+}
+
+#mainnav {
+    /*padding: 17px !important;
+    padding: 4px 5px 4px 5px !important;
+    margin-right: 13px;*/
+    padding-bottom: 5px !important;
+    box-shadow: 0 5px 15px -7px #333 !important;
+}
+
+.goog-imageless-button-hover, .navbuttonouter:hover {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+#topRightNavigation {
+    margin-top: -2px !important;
+}
