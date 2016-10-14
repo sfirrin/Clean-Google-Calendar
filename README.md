@@ -10,4 +10,4 @@ This was initially a Stylish user style but I liked it so I decided to package i
 
 The app can be downloaded from the Chrome Web Store at [this link](https://chrome.google.com/webstore/detail/clean-google-calendar/magodclodecbbnbdfpmoehfdddkhlfmm).
 
-I appreciate bug reports and feature requests.
+If you've found a bug or would like for me to work on a feature please don't hesitate to message me.
