@@ -1,3 +1,9 @@
+/*
+The reason everything in this file is !important is because the CSS is injected
+into the Google Calendar webview after the page has already loaded, so to override
+the normal GCal CSS the !important tags are needed
+*/
+
 .chip dt {
     margin-top: 0 !important;
 }
@@ -39,10 +45,6 @@
 .eui-s #gridcontainer {
     margin-left: 0 !important;
 }
-
-/*.tc-icon-normal {
-    margin-top: -1px !important;
-}*/
 
 #onegoogbar {
  	display: none !important;   
@@ -360,10 +362,11 @@ td.st-dtitle.st-dtitle-down {
     /*padding: 2px 9px !important;*/
 }
 
-.tc-icon-normal {
+#topcontainerwk .tc-icon-normal {
     position: relative !important;
-    top: -1px !important;
+    margin-top: -1px !important;
     left: -1px !important;
+    top: -1px !important;
 }
 
 #mainnav {
@@ -382,4 +385,33 @@ td.st-dtitle.st-dtitle-down {
 
 #topRightNavigation {
     margin-top: -2px !important;
+}
+
+.cal-chooser {
+    margin: 5px !important;
+}
+
+.cal-box {
+    width: 200px !important;
+    top: 20px !important;
+    right: 120px !important;
+}
+
+.cal-box-inactive {
+    display: none;
+}
+
+.month-row .tc-icon-normal {
+    margin-top: 1px !important;
+    position: relative !important;
+    top: -1px !important;
+}
+
+#lhscalinner_my {
+    padding-bottom: 0px !important;
+    padding-left: 5px !important;
+}
+
+#calendars-fav {
+
 }

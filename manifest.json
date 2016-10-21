@@ -1,8 +1,8 @@
 {
-  "name": "Clean Google Calendar",
+  "name": "Clean Google Calendar Beta",
   "description": "Makes Google Calendar look nicer and launches it as a desktop application",
   "author": "Stephen Firrincieli",
-  "version": "0.1",
+  "version": "1.2.0",
   "manifest_version": 2,
   "app": {
     "background": {
