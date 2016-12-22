@@ -22,16 +22,14 @@ function setup(){
     var webview = document.querySelector('webview');
     webview.src = 'http://calendar.google.com';
     webview.setZoom(1.1);
-    // webview.addEventListener('loadstop', function() {
-        webview.addContentScripts([
-            {
-                name: 'injectedJS',
-                matches: ['https://calendar.google.com/calendar/render/*'],
-                js: { files: ['calendar_chooser.js'] },
-                run_at: 'document_end'
-            }
-        ]);s
-    // });
+    webview.addContentScripts([
+        {
+            name: 'injectedJS',
+            matches: ['https://calendar.google.com/calendar/render/*'],
+            js: { files: ['app_changes.js'] },
+            run_at: 'document_end'
+        }
+    ]);
 }
 
 

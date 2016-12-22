@@ -68,7 +68,7 @@ the normal GCal CSS the !important tags are needed
 }
 
 #topcontainerwk {
-    padding-left:57px !important;
+    padding-left:57px;
 }
 
 .wk-tzlabel {
@@ -111,7 +111,10 @@ the normal GCal CSS the !important tags are needed
 }
 
 .mbox-cont {
-    margin-top: 25px !important;
+    position: relative !important;
+    top: 42px !important;
+    background: #eee !important;
+    border: #333 !important;
 }
 
 /*#calmaster {
@@ -350,10 +353,6 @@ td.st-dtitle.st-dtitle-down {
     left: 20px !important;
 }
 
-.mbox-cont {
-    margin-top: 25px !important;
-}
-
 .rb-n {
     border: none !important;
 }
@@ -385,6 +384,7 @@ td.st-dtitle.st-dtitle-down {
 
 #topRightNavigation {
     margin-top: -2px !important;
+    margin-right: -4px !important;
 }
 
 .cal-chooser {
@@ -394,7 +394,6 @@ td.st-dtitle.st-dtitle-down {
 .cal-box {
     width: 200px !important;
     top: 20px !important;
-    right: 120px !important;
 }
 
 .cal-box-inactive {
@@ -412,6 +411,39 @@ td.st-dtitle.st-dtitle-down {
     padding-left: 5px !important;
 }
 
-#calendars-fav {
+#topRightNavigation > #mg-more {
+    display: none;
+}
 
+.tg-time-sec {
+    border-bottom: 0 !important;
+}
+
+#printButton {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px 44px 6px 5px;
+}
+
+.button-hovered {
+    background-color: #eee;
+}
+
+#cal-header {
+    padding-bottom: 0;
+    padding-top: 7px;
+}
+
+th.mv-dayname {
+    font-size: 18px;
+    text-align: center;
+}
+
+td.date-nav-today {
+    display: none !important;
+}
+
+.date-controls {
+    position: relative !important;
+    left: -20px !important;
 }
