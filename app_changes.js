@@ -31,6 +31,20 @@ function setUpCalendarButton() {
             document.querySelector('#createEventButtonContainer').firstChild.firstChild.click()
         });
 
+        // Making a new Today button and adding it to the right nav bar
+        var todayCloneTemplate = document.createElement('template');
+        var today = document.querySelector('td.date-nav-today');
+        // Using the text of the current Today button for localization
+        var todayText = today.textContent;
+        todayCloneTemplate.innerHTML = '<div class="goog-inline-block goog-imageless-button" role="button" aria-expanded="false" tabindex="0" aria-haspopup="true" id="today-clone" style="-webkit-user-select: none;"><div class="goog-inline-block goog-imageless-button-outer-box"><div class="goog-inline-block">' + todayText + '</div></div></div>';
+        var todayClone = todayCloneTemplate.content.firstChild;
+        buttonStrip.insertBefore(todayClone, buttonStrip.childNodes[1]);
+
+        todayClone.addEventListener('click', function() {
+            var currentToday = document.querySelector('td.date-nav-today');
+            currentToday.firstChild.firstChild.click();
+        });
+
         // Creating the calendar chooser button
         var calButtonTemplate = document.createElement('template');
         calButtonTemplate.innerHTML = '<div class="goog-inline-block goog-imageless-button calendar-button" role="button" aria-expanded="false" tabindex="0"aria-haspopup="true" id="mg-more" style="-webkit-user-select: none;"><div class="goog-inline-block goog-imageless-button-outer-box"><div class="goog-inline-block">Options</div><div class="goog-inline-block more-arrow"></div></div></div>';
@@ -112,6 +126,7 @@ function setUpCalendarButton() {
         addHoverListeners(newButton, 'goog-imageless-button-hover');
         addHoverListeners(printButton, 'button-hovered');
         addHoverListeners(signOutButton, 'button-hovered');
+        addHoverListeners(todayClone, 'goog-imageless-button-hover');
 
         // Accommodating for users with two time zones on their calendars
         if (document.querySelector('.tg-timesnotlast')) {
